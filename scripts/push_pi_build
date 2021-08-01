@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+flutter build bundle
+cp -a ./build/flutter_assets/. ../build_files/
+cd ~/personal/build_files
+git add .
+echo "Enter git commit message:"
+read commitMessage
+git commit -m "$commitMessage"
+git pull origin main
+git push -u origin
