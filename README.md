@@ -1,16 +1,11 @@
-# hive_mind
+# Hive Mind
 
-A new Flutter project.
+Flutter application running on a raspberry pi and as an app on mobile devices.
 
-## Getting Started
+## To contribute
 
-This project is a starting point for a Flutter application.
+Make changes, then commit to Github using the push script in `scripts/push`.
 
-A few resources to get you started if this is your first Flutter project:
+For these changes to appear on the pi, run `scripts/push_pi_build`. Then, restart the raspberry pi so that it pulls the new build.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
