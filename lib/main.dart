@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Hive Mind 2'),
+      home: MyHomePage(title: 'Gregory House'),
     );
   }
 }
